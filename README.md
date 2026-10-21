@@ -39,17 +39,20 @@ python -m venv .venv
 # macOS / Linux:  source .venv/bin/activate
 
 pip install \
-  git+https://github.com/aspose-cloud/aspose-storage-cloud-python-mcp.git \
-  git+https://github.com/aspose-cloud/aspose-words-cloud-python-mcp.git \
-  git+https://github.com/aspose-cloud/aspose-cells-cloud-python-mcp.git \
-  git+https://github.com/aspose-cloud/aspose-pdf-cloud-python-mcp.git \
-  git+https://github.com/aspose-cloud/aspose-email-cloud-python-mcp.git
+  git+https://github.com/aspose-cloud/aspose-storage-cloud-python-mcp.git@v1.0.5 \
+  git+https://github.com/aspose-cloud/aspose-words-cloud-python-mcp.git@v2.0.0 \
+  git+https://github.com/aspose-cloud/aspose-cells-cloud-python-mcp.git@v2.1.0 \
+  git+https://github.com/aspose-cloud/aspose-slides-cloud-python-mcp.git@v1.0.2 \
+  git+https://github.com/aspose-cloud/aspose-pdf-cloud-python-mcp.git@v1.1.3 \
+  git+https://github.com/aspose-cloud/aspose-email-cloud-python-mcp.git@v1.3.1
 ```
 
 Install the first line plus only the products you want. The first package is the shared file-tool
 library every server depends on; it is not on PyPI, so it is installed from GitHub in the same command.
 
-**Slides:** `aspose-slides-cloud-python-mcp` is installed the same way once its next release (1.0.2) is out; version 1.0.1 pins an older copy of the shared library and cannot be installed together with the others.
+Each command installs one released version of that server (the `@vX.Y.Z` after the repository name), not
+whatever is on the repository's default branch. To upgrade, change the version to a newer release of that
+repository (see its *Releases* page) and run the command again with `--upgrade`.
 
 This puts one command per product into the virtual environment: `aspose-words-mcp`,
 `aspose-cells-mcp`, `aspose-slides-mcp`, `aspose-pdf-mcp`, `aspose-email-mcp`.
