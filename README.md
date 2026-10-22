@@ -40,11 +40,11 @@ python -m venv .venv
 
 pip install \
   git+https://github.com/aspose-cloud/aspose-storage-cloud-python-mcp.git@v1.0.5 \
-  git+https://github.com/aspose-cloud/aspose-words-cloud-python-mcp.git@v2.0.0 \
-  git+https://github.com/aspose-cloud/aspose-cells-cloud-python-mcp.git@v2.1.0 \
-  git+https://github.com/aspose-cloud/aspose-slides-cloud-python-mcp.git@v1.0.2 \
-  git+https://github.com/aspose-cloud/aspose-pdf-cloud-python-mcp.git@v1.1.3 \
-  git+https://github.com/aspose-cloud/aspose-email-cloud-python-mcp.git@v1.3.1
+  git+https://github.com/aspose-cloud/aspose-words-cloud-python-mcp.git@v2.0.1 \
+  git+https://github.com/aspose-cloud/aspose-cells-cloud-python-mcp.git@v2.2.0 \
+  git+https://github.com/aspose-cloud/aspose-slides-cloud-python-mcp.git@v1.0.3 \
+  git+https://github.com/aspose-cloud/aspose-pdf-cloud-python-mcp.git@v1.1.4 \
+  git+https://github.com/aspose-cloud/aspose-email-cloud-python-mcp.git@v1.4.0
 ```
 
 Install the first line plus only the products you want. The first package is the shared file-tool
